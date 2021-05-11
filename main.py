@@ -3,14 +3,12 @@ area = 0
 circumference = 0
 pi = 3.141592
 
-
 def is_digit(d):
  try:
    int(d)
    return True
  except ValueError:
    return False
-
 
 def validate_input(d):
   while (True):
@@ -20,7 +18,6 @@ def validate_input(d):
      d = input("please enter a value greater than 0")
    else:
      return int(d)
-
 
 d = validate_input(d)
 
